@@ -7,7 +7,7 @@ import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.block.Blocks;
 import net.minecraft.world.level.block.state.BlockBehaviour;
 
-@Registrar(element = Block.class, modid = "examplemod")
+@Registrar(element = Block.class, modid = "forge_test_mod")
 public class ModBlocks {
     @RegistryEntry("test_block")
     public static Block TEST_BLOCK = new Block(BlockBehaviour.Properties.copy(Blocks.GRASS));

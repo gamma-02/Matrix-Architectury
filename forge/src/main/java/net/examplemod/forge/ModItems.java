@@ -6,7 +6,7 @@ import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.Item;
 
-@Registrar(element = Item.class, modid = "examplemod")
+@Registrar(element = Item.class, modid = "forge_test_mod")
 public class ModItems {
     @RegistryEntry("test_item")
     public static Item TEST_ITEM = new Item(new Item.Properties().tab(CreativeModeTab.TAB_MISC));

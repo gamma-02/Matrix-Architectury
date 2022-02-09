@@ -27,7 +27,7 @@ public class RegistryThread<T extends IForgeRegistryEntry<T>> extends Thread{
     public void run(){
         while(!canReplaceFeilds()){
             try {
-                wait(100);
+                wait(100);//GAMMA!!! fix this, for whatever reason this throws an exeption at runtime FIXME
             } catch (InterruptedException e) {
                 System.out.println(e.getLocalizedMessage());
             }

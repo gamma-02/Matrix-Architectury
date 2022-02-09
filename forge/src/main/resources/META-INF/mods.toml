@@ -4,30 +4,30 @@ loaderVersion = "[38,)"
 license = "Insert License Here"
 
 [[mods]]
-modId = "examplemod"
+modId = "forge_test_mod"
 version = "${version}"
-displayName = "Example Mod"
-authors = "Me!"
+displayName = "Matrix Forge"
+authors = "gamma_02, the DimDoors team"
 description = '''
-This is an example description! Tell everyone what your mod is about!
+Simple annotation-based registry for Forge
 '''
 #logoFile = ""
 
-[[dependencies.examplemod]]
+[[dependencies.forge_test_mod]]
 modId = "forge"
 mandatory = true
 versionRange = "[38,)"
 ordering = "NONE"
 side = "BOTH"
 
-[[dependencies.examplemod]]
+[[dependencies.forge_test_mod]]
 modId = "minecraft"
 mandatory = true
 versionRange = "[1.18,)"
 ordering = "NONE"
 side = "BOTH"
 
-[[dependencies.examplemod]]
+[[dependencies.forge_test_mod]]
 modId = "architectury"
 mandatory = true
 versionRange = "[3.6.15,)"

@@ -2,17 +2,15 @@
   "schemaVersion": 1,
   "id": "fabric_test_mod",
   "version": "${version}",
-  "name": "Example Mod",
-  "description": "This is an example description! Tell everyone what your mod is about!",
+  "name": "Matrix",
+  "description": "Simple annotation-based registry",
   "authors": [
-    "Me!"
+    "gamma_02, The DimDoors team"
   ],
   "contact": {
-    "homepage": "https://fabricmc.net/",
-    "sources": "https://github.com/FabricMC/fabric-example-mod"
+    "discord": "https://discord.gg/f27hdrM"
   },
-  "license": "Insert License Here",
-  "icon": "assets/examplemod/icon.png",
+  "license": "MIT probably idk",
   "environment": "*",
   "entrypoints": {
     "main": [
